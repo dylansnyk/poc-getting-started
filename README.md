@@ -1,1 +1,1 @@
-# poc-getting-started
+# POC Getting Started Guide
