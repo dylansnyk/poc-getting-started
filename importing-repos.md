@@ -2,7 +2,7 @@
 
 ### Integrate with your Source Control Manager (SCM)
 
-Is your SCM (e.g. GitHub), self-hosted within a private network? If yes, will need the [Snyk Broker](https://docs.snyk.io/snyk-admin/snyk-broker) to connect. Please work with your Solutions Engineer to set this up.
+Is your SCM (e.g. GitHub), self-hosted within a private network? If yes, you will need the [Snyk Broker](https://docs.snyk.io/snyk-admin/snyk-broker) to connect. Please work with your Solutions Engineer to set this up.
 
 If your SCM is cloud-based, click on the corresponding tile on the integrations page. For GitHub users, please choose the "GitHub Enterprise" option, more info on why [here](https://docs.snyk.io/integrations/git-repository-scm-integrations/introduction-to-git-repository-integrations/using-github-or-github-enterprise-integration).
 
