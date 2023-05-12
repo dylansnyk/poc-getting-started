@@ -1,6 +1,6 @@
 # POC Getting Started Guide
 
-## Importing to Snyk
+## Importing Repos to Snyk
 
 ## PR Checks
 
