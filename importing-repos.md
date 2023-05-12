@@ -14,4 +14,16 @@ For each integration (except BitBucket Cloud App), you'll be required to generat
 * [BitBucket](https://docs.snyk.io/integrations/git-repository-scm-integrations/bitbucket-data-center-server-integration#setting-up-a-bitbucket-dc-server-integration)
 * [Azure Repos](https://docs.snyk.io/integrations/git-repository-scm-integrations/azure-repositories-integration#setting-up-an-azure-repository-integration)
 
-### Select Repositories 
+### Adjust Settings
+
+Disable Automation (optional): Disable PR checks, auto fix-PRs as a best practice
+
+Enable Snyk Code.
+
+### Import Repositories 
+
+Select which repositories to import and click Add Selected Repositories.
+
+Watch for failures in import log.
+
+Have a lot of repositories you want to import? Thinking ahead to how to do this at scale? We've thought of that too: check out [snyk-api-import](https://github.com/snyk-tech-services/snyk-api-import) which can help automate the import process at scale
