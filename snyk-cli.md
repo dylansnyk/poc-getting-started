@@ -40,6 +40,11 @@ IaC: `snyk iac test --report`
 
 <img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/monitor.png">
 
+For `snyk monitor`, there are some additional arguments that can be added to adjust the default naming in the Snyk UI: 
+<br>
+
+<img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/monitor-args.png">
+
 ### More CLI info
 
 * [CLI Reference Docs](https://docs.snyk.io/snyk-cli/cli-reference)
