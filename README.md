@@ -6,6 +6,6 @@
 
 ## [Fixing Issues locally using the CLI and IDE](fixing-issues.md)
 
-## Automation in CI
+## [Automation in CI](running-in-cd.md)
 
 ## IDE Plugins
