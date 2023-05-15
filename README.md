@@ -4,6 +4,8 @@
 
 ## [PR Checks](pr-checks.md)
 
-## Using the CLI
+## Using the Snyk CLI
+
+## Automation in CI
 
 ## IDE Plugins
