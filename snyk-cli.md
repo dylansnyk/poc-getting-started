@@ -33,7 +33,7 @@ The `test` commands are usful for running the scans locally as a developer, or d
 
 Try fixing an issue. The feedback for each scan type will be a little different, here we will look at an example for open source.
 
-
+<img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/run-ide.gif">
 
 ### Pushing results to the Snyk UI
 
