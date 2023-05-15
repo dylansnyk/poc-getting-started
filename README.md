@@ -4,7 +4,7 @@
 
 ## [PR Checks](pr-checks.md)
 
-## [Using the Snyk CLI](snyk-cli.md)
+## [Fixing Issues locally using the CLI and IDE](fixing-issues.md)
 
 ## Automation in CI
 
