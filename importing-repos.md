@@ -6,7 +6,7 @@ Is your SCM (e.g. GitHub), self-hosted within a private network? If yes, you wil
 
 If your SCM is cloud-based, click on the corresponding tile on the integrations page. For GitHub users, please choose the "GitHub Enterprise" option, more info on why [here](https://docs.snyk.io/integrations/git-repository-scm-integrations/introduction-to-git-repository-integrations/using-github-or-github-enterprise-integration).
 
-<img width="600" alt="scm selection" src="https://github.com/dylansnyk/poc-getting-started/assets/94395157/be626692-241c-479c-bdfb-9d34fd65e836">
+<img width="600" alt="scm selection" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/scm-selection.png">
 
 For each integration (except BitBucket Cloud App), you'll be required to generate a token. The required scope for each token is documented here:
 * [GitHub](https://docs.snyk.io/integrations/git-repository-scm-integrations/github-enterprise-integration#setting-up-a-github-enterprise-integration)
@@ -33,13 +33,12 @@ Select which repositories you'd like to import. For the purposes of the POC, sel
 
 Click "Add selected Repositories" in the top right when ready. The import settings at the bottom can be left to their default values.
 
-<img width="600" alt="select repos" src="https://github.com/dylansnyk/poc-getting-started/assets/94395157/211c38a9-6919-4d79-9827-af1d104d9ecc">
+<img width="600" alt="select repos" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/add-selected-repos.png">
 
 The results will begin to stream in. The process may take a few minutes based on the number of repositories being imported. Once the import completes, you can review the import log in the top right corner for any import failures. Some import failures are expected, common failures are documented [here](https://support.snyk.io/hc/en-us/articles/360001373118-Project-import-errors).
 
-<img width="400" alt="import log" src="https://github.com/dylansnyk/poc-getting-started/assets/94395157/9631bec3-b235-4abd-b67c-74ded82d14c9">
-
-<img width="400" alt="image" src="https://github.com/dylansnyk/poc-getting-started/assets/94395157/01ede8ce-9c73-43f2-9c76-d265c0cad644">
+<img width="400" alt="view import log" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/view-import-log.png">
+<img width="400" alt="import log" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/import-log.png">
 
 <br><br>
 Now that repositories have been imported, you are good to start digging into results and testing different workflows!
