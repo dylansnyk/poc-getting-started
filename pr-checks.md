@@ -6,7 +6,7 @@
 Navigate to your SCM integration settings (we are using GitHub here, but it is the same for all supported SCMs)
 </p>
   
-<img width="1412" alt="Navigate to SCM integration settings" src="https://github.com/dylansnyk/poc-getting-started/assets/94395157/816658e1-c8ec-453c-9f4a-56fc8d18bfb3">
+<img width="1412" alt="Navigate to SCM integration settings" src="https://github.com/dylansnyk/poc-getting-started/assets/github-settings.png">
 
 <p>
   
