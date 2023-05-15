@@ -35,4 +35,4 @@ You can click into the full details of the issue to better understand the vulner
 
 <img width="1352" alt="Screen Shot 2023-05-12 at 12 29 19 PM" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/pr-check-example.png">
 
-Then try fixing the issue in follow up commit, push the commit and verify that the Snyk checks re-run and are passing.
+Then try fixing the issue in a follow up commit, push the commit and verify that the Snyk checks re-run and are passing.
