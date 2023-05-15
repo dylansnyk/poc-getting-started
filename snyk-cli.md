@@ -1,6 +1,6 @@
-## Running Snyk Locally
+## Fixing Issues Locally
 
-
+Here we will look at how we can identify vulnerabilities using the Snyk CLI and IDE plugins
 
 ### Install the Snyk CLI
 Choose any of the following installation methods:
@@ -18,7 +18,7 @@ mv ./snyk /usr/local/bin/
 ```
 More installation methods can be found here: https://github.com/snyk/cli#install-snyk-cli
 
-### Scanning code locally
+### Scanning with CLI
 
 Navigate to the root directory of the project you would like test. Each scan type has its own CLI command:
 
@@ -29,29 +29,23 @@ IaC: `snyk iac test`
 
 The `test` commands are usful for running the scans locally as a developer, or during CI if you would like to break a build if there issues found. 
 
+### Installing the IDE plugins
+
+For installation, please refer to our [IDE plugin docs](https://docs.snyk.io/integrations/ide-tools).
+
 ### Fixing an issue
 
-Try fixing an issue. The feedback for each scan type will be a little different, here we will look at an example for open source.
+Try fixing an issue. Either introduce a new issue, or choose an existing that can be fixed.
 
-<img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/run-ide.gif">
+The feedback for each scan type will be a litle different, here we will look at an example for open source using the CLI and IDE. The arrows highlight where to get thr fix advice for both the CLI and IDE:
 
-### Pushing results to the Snyk UI
+<img width="900" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/cli-fix.png">
 
-If you would like to push the results to the Snyk UI for reporting and recurring monitoring. The typical use case here would be to automate in CI on commits to the main branch, that way Snyk is always in sync with the latest version of the repository.
+<img width="900" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/ide-fix.png">
 
-The following commands should be used for each scan type:
+Then, using the fix advice, make the update in the code. You can then trigger a new scan in the IDE, or re-run the `snyk test` command to verify the issue is no longer present.
 
-Open Source: `snyk monitor --all-projects` <br>
-Code: in development, beta coming soon <br>
-Container: `snyk container monitor name_of_image:tag` <br>
-IaC: `snyk iac test --report`
-
-<img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/monitor.png">
-
-For `snyk monitor`, there are some additional arguments that can be added to adjust the default naming in the Snyk UI: 
-<br>
-
-<img width="600" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/monitor-args.png">
+<img width="800" src="https://github.com/dylansnyk/poc-getting-started/blob/main/assets/run-ide.gif">
 
 ### More CLI info
 
