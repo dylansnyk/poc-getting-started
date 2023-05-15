@@ -1,4 +1,6 @@
-## Using the Snyk CLI
+## Running Snyk Locally
+
+
 
 ### Install the Snyk CLI
 Choose any of the following installation methods:
@@ -26,6 +28,12 @@ Container: `snyk container test name_of_image:tag` <br>
 IaC: `snyk iac test`
 
 The `test` commands are usful for running the scans locally as a developer, or during CI if you would like to break a build if there issues found. 
+
+### Fixing an issue
+
+Try fixing an issue. The feedback for each scan type will be a little different, here we will look at an example for open source.
+
+
 
 ### Pushing results to the Snyk UI
 
