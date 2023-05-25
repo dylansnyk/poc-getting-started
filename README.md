@@ -22,7 +22,7 @@ Sample POC Checklist:
 - [Importing Repos to Snyk](importing-repos.md)
 - [Testing PR Checks](pr-checks.md)
 - [Fixing Issues locally using the CLI and IDE](fixing-issues.md)
-- [Automation in CI](running-in-cd.md)
+- [Automation in CI](running-in-ci.md)
 - Review findings for accuracy
 - Review reports for completeness
 
@@ -40,6 +40,6 @@ During the wrap-up we will go through any remaining tech questions, review the P
 
 ## [Fixing Issues locally using the CLI and IDE](fixing-issues.md)
 
-## [Automation in CI](running-in-cd.md)
+## [Automation in CI](running-in-ci.md)
 
 ## IDE Plugins
